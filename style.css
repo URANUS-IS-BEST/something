@@ -1,0 +1,71 @@
+body{
+    background-color: darkcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner{
+    height: 400px;
+    background-color: white;
+
+    background-image: url('./Potato.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1{
+    text-align: center;
+    color: black;
+    font-size: 48px;
+    text-shadow: 0 0 4px black;
+}
+
+.banner h2{
+    color: darkgreen;
+    text-align: center;
+    text-shadow: 0 0 4px gray;
+}
+
+.nav {
+    background-color: bisque;
+    color: beige;
+    font-size: 24px;
+    text-decoration: dotted;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 1px red;
+
+}
+
+.nav a:hover {
+    background-color: aqua;
+    color: blue;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+
+    text-align: center;
+
+    display: inline-block;
+}
+
+.card img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.price {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.recipe-card {
+    width:300px;
+    height: 400px;
+    background-color: blanchedalmond;
+}
